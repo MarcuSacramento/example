@@ -7,11 +7,10 @@ package com.practice;
 public class App
 {
     
-    int target = -5;
-int num = 3;
+   String firstName = getFirstName();   //String overrides equals
+String lastName = getLastName();
 
-target =- num;  // Noncompliant; target = -3. Is that really what's meant?
-target =+ num; // Noncompliant; target = 3
+if (firstName == lastName) { ... };   // Non-compliant; false even if the strings have the same value
     public static void main( String[] args )
     {
         System.out.println( "Hello Sam!"+"teste de     alteração" );
