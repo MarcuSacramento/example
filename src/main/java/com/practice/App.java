@@ -7,10 +7,13 @@ package com.practice;
 public class App
 {
     
-   String firstName = "Igual";   //String overrides equals
-String lastName = "Diferente;
+   String firstName = "Igual";
+   String lastName = "Diferente";
 
-if (firstName == lastName) { System.out.println( "Erro de comparação" ); }; 
+if (firstName == lastName) 
+{ 
+    System.out.println( "Erro de comparação" );
+} 
     public static void main( String[] args )
     {
         System.out.println( "Hello Sam!"+"teste de     alteração" );
