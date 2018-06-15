@@ -7,12 +7,11 @@ package com.practice;
 public class App
 {
     
-   String firstName = "Igual";
-   String lastName = "Diferente";
-
- 
+   
     public static void main( String[] args )
     {
+        String firstName = "Igual";
+        String lastName = "Diferente";
         
         if (firstName == lastName)
         {
